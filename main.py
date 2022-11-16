@@ -18,3 +18,7 @@ with open("1.zip", "rb") as f: # Leemos el fichero que vamos a codificar.
     filename = '2.zip' # Fichero decodificado a partir de la cadena de texto ASCII que es el .zip codificado.
     with open(filename, 'wb') as f: # Asignamos un nombre al nuevo fichero.
         f.write(decoded) # Creamos el fichero y la guardamos en el directorio del script.
+
+        
+        
+        
