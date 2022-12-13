@@ -8,10 +8,13 @@ if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
 else:
     print("Numero de parametros incorrecto ")
-    print("Syntax = port-scanner-by-M4gno.py <ip>")
+    print("Syntax = python3 ahmScanner.py <ip>")
 
 print("=" * 50)
 print("Realizando escan de puertos a :" + target)
+print("=" * 50)
+print("---------------REALIZADO POR M4GNO----------------")
+print("=" * 50)
 print("Empieza en el: " + str(datetime.now()))
 print("=" * 50)
 
@@ -37,3 +40,11 @@ except socket.gaierror:
 except socket.error:
     print("No se pudo conectar con el servidor")
     sys.exit()
+
+print("=" * 50)
+print("Finalizado el escan de puertos a :" + target)
+print("=" * 50)
+print("---------------REALIZADO POR M4GNO----------------")
+print("=" * 50)
+print("Acabó en el: " + str(datetime.now()))
+print("=" * 50)
