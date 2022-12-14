@@ -21,7 +21,7 @@ print("=" * 50)
 #COMIENZO DEL SCANNER
 
 try:
-    for puertos in range(50, 85):
+    for puertos in range(0, 65536):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
         aux = s.connect_ex((target, puertos))
