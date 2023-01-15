@@ -8,7 +8,7 @@ if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
 else:
     print("Numero de parametros incorrecto ")
-    print("Syntax = python3 ahmScanner.py <ip>")
+    print("Syntax = python3 analizerMagno.py <ip>")
 
 print("=" * 50)
 print("Realizando escan de puertos a :" + target)
